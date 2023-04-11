@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment two</title>
+</head>
+
+<body>
+
+    <div>
+        <!-- //--------------------------------Question 1------------------------------------  -->
+        <button onclick="displayAnswer()">Question 1</button>
+        <h1 id="q1"></h1>
+
+        <!-- //--------------------------------Question 2------------------------------------  -->
+
+
+        <button onclick="displayAnswer2()">Question 2</button>
+        <h1 id="q2"></h1>
+
+        <!-- //--------------------------------Question 3------------------------------------  -->
+
+
+        <button onclick="addParagraph('This is a new paragraph!')">Add Paragraph</button>
+
+        <h1 id="q3"></h1>
+
+        <!-- //--------------------------------Question 4------------------------------------  -->
+
+
+        <button onclick="addListItem('New Item')">Add List Item</button>
+
+        <ul id="myList">
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+
+        <!-- //--------------------------------Question 5------------------------------------  -->
+
+
+        <button onclick="changeBackgroundColor(document.body, 'green')">Change Background Color</button>
+
+        <br>
+        <br>
+
+        <!-- //--------------------------------Question 6------------------------------------  -->
+
+
+        <button onclick="saveToLocalStorage('myObject', {name: 'Saqib', age: 30})">Save Object to localStorage</button>
+        <h1 id="q6"></h1>
+
+        <!-- //--------------------------------Question 7------------------------------------  -->
+
+
+        <button onclick="retrieveFromLocalStorage('myObject')">Retrieve Object from localStorage</button>
+        <h1 id="q7"></h1>
+
+        <!-- //--------------------------------Question 8------------------------------------  -->
+
+        <button onclick="saveAndRetrieveFromLocalStorage({name: 'Saqib', age: 26})">Save and Retrieve Object from
+            localStorage</button>
+        <h1 id="q8"></h1>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
